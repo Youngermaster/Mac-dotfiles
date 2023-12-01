@@ -2,6 +2,10 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew install git
+brew install tree
+brew install neofetch
+brew install lsd
+brew install bat
 brew install zsh
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
@@ -18,7 +22,15 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 # NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 nvm install --lts
-
-brew install lsd
-brew install bat
 brew install yarn
+brew install watchman
+
+# Terminal
+brew install --cask iterm2
+
+# React Native
+brew tap homebrew/cask-versions
+brew install --cask zulu11
+
+# Get path to where cask was installed to double-click installer
+brew info --cask zulu11
