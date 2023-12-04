@@ -34,3 +34,6 @@ brew install --cask zulu11
 
 # Get path to where cask was installed to double-click installer
 brew info --cask zulu11
+
+# Run custom scripts removing the quarantine attribute
+# xattr -d com.apple.quarantine ./script.sh
