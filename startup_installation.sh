@@ -37,3 +37,10 @@ brew info --cask zulu11
 
 # Run custom scripts removing the quarantine attribute
 # xattr -d com.apple.quarantine ./script.sh
+
+# * OPTIONAL
+## Cloudflared to make tunnels for localhost
+
+# Xcode Cocoapods
+brew install cocoapods
+# brew install cloudflare/cloudflare/cloudflared
