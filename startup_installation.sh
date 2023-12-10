@@ -4,6 +4,7 @@ xcode-select --install
 brew install git
 brew install tree
 brew install neofetch
+brew install htop
 brew install lsd
 brew install bat
 brew install zsh
@@ -44,3 +45,9 @@ brew info --cask zulu11
 # Xcode Cocoapods
 brew install cocoapods
 # brew install cloudflare/cloudflare/cloudflared
+
+# LunarVim
+# Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+brew install neovim
+LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
