@@ -246,14 +246,17 @@ notify-send "cool1" "yeah it is working"
 notify-send "cool2" "yeah it is working"'
 
 # ---------------P R O M P T------------------
-bindkey "^[[H" beginning-of-line
-bindkey "^[[F" end-of-line
-bindkey "^[[3~" delete-char
-bindkey "^[[1;3C" forward-word
-bindkey "^[[1;3D" backward-word
+bindkey "[B" beginning-of-line
+bindkey "[A" end-of-line
+bindkey "[C" forward-word
+bindkey "[D" backward-word
+# Delete a full word with Option + Delete
+bindkey "[E" backward-delete-word
+#bindkey "\e\e[D" delete-word
 
 # Custom Aliases
 alias nv='nvim'
+alias lv='lvim'
 alias battery='cat /sys/class/power_supply/BAT0/capacity'
 alias cat='bat'
 alias catn='/bin/cat'
@@ -286,6 +289,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Android SDK Tools
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
