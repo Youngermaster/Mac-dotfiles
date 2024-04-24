@@ -25,6 +25,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 nvm install --lts
 brew install yarn
 brew install watchman
+# Pnpm
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 # Terminal
 brew install --cask iterm2
