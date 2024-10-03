@@ -48,6 +48,8 @@ brew info --cask zulu11
 brew install cocoapods
 # brew install cloudflare/cloudflare/cloudflared
 
+brew install luarocks
+
 # LunarVim
 # Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -56,4 +58,3 @@ LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.
 
 # Ansible
 brew install ansible
-
