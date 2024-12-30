@@ -7,6 +7,8 @@ brew install neofetch
 brew install htop
 brew install lsd
 brew install bat
+brew install fzf
+brew install lazygit
 brew install zsh
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
