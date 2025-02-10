@@ -336,3 +336,13 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+# Stuff
+ODBCSYSINI=/opt/homebrew/etc
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/youngermaster/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+# Elixir + Phoenix
+export PATH=$HOME//opt/homebrew/Cellar/erlang/27.2.2/lib/erlang/erts-15.2.2/bin:$PATH
+export PATH=$HOME//opt/homebrew/bin:$PATH
