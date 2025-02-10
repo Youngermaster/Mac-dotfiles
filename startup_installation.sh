@@ -60,3 +60,6 @@ LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.
 
 # Ansible
 brew install ansible
+
+# Elixir
+brew install elixir
