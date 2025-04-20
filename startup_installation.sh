@@ -12,6 +12,8 @@ brew install lazygit
 brew install zsh
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
+brew install watch
+brew install lsusb
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 sudo sh -c "echo $(which zsh) >> /etc/shells"
